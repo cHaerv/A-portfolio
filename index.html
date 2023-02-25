@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connor H Portfolio</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/0b5ef0365c.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Roboto&family=Sacramento&family=Ubuntu&display=swap"
+        rel="stylesheet">
+    <!-- my styles -->
+    <link rel="stylesheet" href="style.css">
+    <!-- jquery and javascript -->
+    <script src="https://code.jquery.com/jquery-3.6.3.js"
+        integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script defer src="index.js"></script>
+</head>
+
+<body>
+    <nav class="navigatio">
+        <ul class="navigatio-nav">
+            <li class="">
+
+            </li>
+            <li class="navi-item">
+                <a href="#header" class="navi-link">
+                    <i class="fa-solid fa-house"></i>
+                    <span class="link-text">Home</span>
+                </a>
+            </li>
+            <li class="navi-item">
+                <a href="#About" class="navi-link">
+                    <i class="fa-solid fa-user-large"></i>
+                    <span class="link-text">About Me</span>
+                </a>
+            <li class="navi-item">
+                <a href="#skills" class="navi-link">
+                    <i class="fa-solid fa-code"></i>
+                    <span class="link-text">My Skills</span>
+                </a>
+
+            </li>
+            </li>
+            <li class="navi-item">
+                <a href="#contact" class="navi-link">
+                    <i class="fa-solid fa-message"></i>
+                    <span class="link-text">Contact</span>
+                </a>
+
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="header">
+            <video autoplay="1" muted src="images/DJI_0469.MP4" type="video/MP4" class="header-vid"></video>
+            <div class="header-text">
+                <h1 class="home-h1">Connor Harvey</h1>
+                <h2 class="home-h2 hidden">Web Developer</h2>
+                <a href="#About"><i class="fa-solid fa-arrow-down"></i></a>
+            </div>
+        </section>
+
+        <section id="About">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col">
+                        <h3>About Me</h3>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col hide">
+                        <p>Hi, I'm Connor, an aspiring web developer from the West Midlands!</p>
+                    </div>
+                    <div class="col">
+                        <div class="rotate-col hide">
+                            <p class="sentance-rotate">I would say I'm</p>
+                            <div class="rotating-words-container">
+                                <span class="rotating-words">Motivated</span>
+                                <span class="rotating-words">Creative</span>
+                                <span class="rotating-words">Social</span>
+                                <span class="rotating-words">passionate</span>
+                                <span class="rotating-words">Motivated</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <p class="interests hide">My interests include writing music, Drone piloting, hiking,
+                            linguistics and of course <strong>Coding.</strong></p>
+                    </div>
+                    <div class="col">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ERDN6AYMrN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container skills-container">
+                <div class="row">
+                    <div class="col">
+                        <h3 class="skills-header">My Skills</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <p class="hide">I code using...</p>
+                </div>
+                <div class="row">
+                    <div class="col hide delay-show">
+                        <i class="fa-brands fa-html5 fa-5x code-icons"></i>
+                        <p>HTML</p>
+                    </div>
+                    <div class="col hide delay-show">
+                        <i class="fa-brands fa-css3-alt fa-5x code-icons"></i>
+                        <p>CSS</p>
+                    </div>
+                    <div class="col hide delay-show">
+                        <i class="fa-brands fa-square-js fa-5x code-icons"></i>
+                        <p>Javascript & jQuery</p>
+                    </div>
+                    <div class="col hide delay-show">
+                        <i class="fa-brands fa-bootstrap fa-5x code-icons"></i>
+                        <p>Bootsrap</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h4 class="hide">My Projects</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card hide">
+                        <img src="images/novacordSite.png" alt="Novacord website" class="card-img-top">
+                        <div class="card-body">
+                            <h5>Novacord</h5>
+                            <a href="https://github.com/cHaerv/novaCord-site" class="btn btn-outline-light">github</a>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <h4>Contact & socials</h4>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <a href="https://github.com/cHaerv"><i class="fa-brands fa-github fa-xl bottom-icon"></i></a>
+                    </div>
+                    <div class="col">
+                        <a href="https://www.linkedin.com/in/connor-harvey-6ba384267/"><i class="fa-brands fa-linkedin-in fa-xl bottom-icon"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
